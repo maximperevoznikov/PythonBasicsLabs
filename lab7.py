@@ -1,0 +1,6 @@
+def get_people_with_min_age(people):    return people[people["age"] == min(people["age"])].sort()
+def get_people_with_max_age(people):    return people[people["age"] == max(people["age"])].sort()
+def get_people_with_min_height(people):    return people[people["height"] == min(people["height"])].sort()
+def get_people_with_max_height(people):    return people[people["height"] == max(people["height"])].sort()
+def get_people_with_min_weight(people):    return people[people["weight"] == min(people["weight"])].sort()
+def get_people_with_max_weight(people):    return people[people["weight"] == max(people["weight"])].sort()

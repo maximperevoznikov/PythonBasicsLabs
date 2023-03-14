@@ -1,0 +1,5 @@
+print("Как Вас зовут?")
+name = input()
+print("На какой специальности Вы обучались ранее?")
+education = input()
+print("Я " + name + ", обучался на специальности " + education)
